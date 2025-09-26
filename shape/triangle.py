@@ -6,7 +6,7 @@ __version__ = "1.0.0"
 import math
 from shape import Shape
 
-class Triangle(Shape):
+class Triangle:
     """Represents a triangle shape."""
 
     def __init__(self, color: str, side_1: int, side_2: int, side_3: int):
